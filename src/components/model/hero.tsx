@@ -9,6 +9,7 @@ import {
   RiTodoFill,
   RiArrowDownSLine,
 } from "react-icons/ri";
+import { DevImage, Socials } from ".";
 
 export function Hero() {
   return (
@@ -38,8 +39,19 @@ export function Hero() {
                 <Download size={18} />
               </Button>
             </div>
+            {/* social */}
+            <Socials
+              containerStyles=" flex gap-x-6 mx-auto xl:mx-0"
+              iconStyles=" text-foreground text-[22px] hover:text-primary transition-all"
+            />
           </div>
-          <div className=" hidden xl:flex relative">iamge</div>
+          <div className=" hidden xl:flex relative">
+            <div className=" bg-hero_shape2_light dark:bg-hero_shape2_dark bg-no-repeat w-[500px] h-[500px]  absolute -top-1 -right-2"></div>
+            <DevImage
+              containerStyles="bg-hero_shape w-[510px] h-[462px] relative bg-no-repeat bg-bottom"
+              imgSrc="/hero/developer.png"
+            />
+          </div>
         </div>
         <div className=" hidden md:flex absolute left-2/4 bttom-44 xl:bottom-12 animate-bounce">
           <RiArrowDownSLine className=" text-3xl text-primary" />
