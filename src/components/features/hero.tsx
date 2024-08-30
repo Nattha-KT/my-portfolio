@@ -8,8 +8,9 @@ import {
   RiBracesFill,
   RiTodoFill,
   RiArrowDownSLine,
+  RiBriefcase4Fill,
 } from "react-icons/ri";
-import { DevImage, Socials } from ".";
+import { Badge, DevImage, Socials } from ".";
 
 export function Hero() {
   return (
@@ -39,17 +40,22 @@ export function Hero() {
                 <Download size={18} />
               </Button>
             </div>
-            {/* social */}
             <Socials
               containerStyles=" flex gap-x-6 mx-auto xl:mx-0"
               iconStyles=" text-foreground text-[22px] hover:text-primary transition-all"
             />
           </div>
           <div className=" hidden xl:flex relative">
+            <Badge
+              icon={<RiBriefcase4Fill />}
+              endCountNum={3}
+              badgeText="Years of Experience"
+              containerStyles=" absolute top-[24%] -left-[5rem] "
+            />
             <div className=" bg-hero_shape2_light dark:bg-hero_shape2_dark bg-no-repeat w-[500px] h-[500px]  absolute -top-1 -right-2"></div>
             <DevImage
               containerStyles="bg-hero_shape w-[510px] h-[462px] relative bg-no-repeat bg-bottom"
-              imgSrc="/hero/developer.png"
+              imgSrc="/about/minimal-profile.png"
             />
           </div>
         </div>
