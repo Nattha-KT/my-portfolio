@@ -4,3 +4,4 @@ export * from "./nav";
 export * from "./mobileNav";
 export * from "./shared";
 export * from "./ui";
+export * from "./logo";

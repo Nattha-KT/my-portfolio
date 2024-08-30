@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { MobileNav, Nav } from ".";
-import Logo from "./logo";
+import { Logo, MobileNav, Nav } from ".";
 import ThemeToggler from "./shared/themeToggler";
 import { usePathname } from "next/navigation";
 
