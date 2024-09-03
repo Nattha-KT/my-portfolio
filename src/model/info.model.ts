@@ -29,3 +29,10 @@ export type SkillSection = {
   title: "skills" | "tools";
   data: (SkillItem | ToolItem)[];
 };
+
+export type ServiceDataItem = {
+  icon: ReactElement;
+  title: string;
+  description: string;
+};
+
