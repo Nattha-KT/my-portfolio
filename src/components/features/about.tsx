@@ -6,9 +6,9 @@ import {
   SkillSection,
   ToolItem,
 } from "@/model";
-import { DevImage } from ".";
 import Image from "next/image";
 import { Briefcase, GraduationCap } from "lucide-react";
+import { DevImage } from "../shared";
 
 export function About() {
   const getQualificationData = (

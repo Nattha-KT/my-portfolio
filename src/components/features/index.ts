@@ -1,6 +1,4 @@
 export * from './hero'
-export * from './devImage'
-export * from './badge'
 export * from './socials'
 export * from './about'
 export * from './services'  

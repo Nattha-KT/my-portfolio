@@ -36,3 +36,13 @@ export type ServiceDataItem = {
   description: string;
 };
 
+export type ProjectedDataItem = {
+  image: string;
+  category: string;
+  name: string;
+  description: string;
+  link:string;
+  github:string;
+};
+
+

@@ -10,7 +10,8 @@ import {
   RiArrowDownSLine,
   RiBriefcase4Fill,
 } from "react-icons/ri";
-import { Badge, DevImage, Socials } from ".";
+import { Socials } from ".";
+import { BadgeCustom, DevImage } from "../shared";
 
 export function Hero() {
   return (
@@ -46,7 +47,7 @@ export function Hero() {
             />
           </div>
           <div className=" hidden xl:flex relative">
-            <Badge
+            <BadgeCustom
               icon={<RiBriefcase4Fill />}
               endCountNum={3}
               badgeText="Years of Experience"
