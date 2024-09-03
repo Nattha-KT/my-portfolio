@@ -3,10 +3,16 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export  function Logo() {
+export function Logo() {
   return (
     <Link href={"/"}>
-      <Image src="/logo.svg" width={54} height={54} priority alt="logo-image" />
+      <Image
+        src="/logo.svg"
+        width={120}
+        height={120}
+        priority
+        alt="logo-image"
+      />
     </Link>
   );
 }
