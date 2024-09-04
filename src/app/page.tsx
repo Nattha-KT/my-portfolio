@@ -1,14 +1,15 @@
 
-import { About, Hero,Services, Works } from "@/components/container";
-import Image from "next/image";
+import { About, Hero,Services, Works,Cta } from "@/components/container";
+
 
 export default function Home() {
   return (
     <main className="">
       <Hero/>
+      <Works/>
       <About/>
       <Services/>
-      <Works/>
+      <Cta/>
     </main>
   );
 }

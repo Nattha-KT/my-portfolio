@@ -16,9 +16,9 @@ export function Socials({
   iconStyles,
 }: Partial<SocialsProps>) {
   return (
-    <div className={` ${cn(" ",containerStyles)} `}>
+    <div className={` ${cn("",containerStyles)} `}>
       {icons.map((icon, index) => (
-        <Link href={icon.path} key={index}>
+        <Link href={icon.path} key={index} className="  hover:scale-125 transition-all duration-300">
           <div className={`${iconStyles}`}>{icon.name}</div>
         </Link>
       ))}
