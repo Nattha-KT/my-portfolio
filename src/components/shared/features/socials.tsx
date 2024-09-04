@@ -1,7 +1,7 @@
 "use client";
 
 import { ComponentPropsWithoutRef } from "react";
-import { icons } from "../../../../features/icons";
+import { icons } from "../../features/icons";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 

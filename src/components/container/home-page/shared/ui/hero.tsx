@@ -11,7 +11,7 @@ import {
   RiBriefcase4Fill,
 } from "react-icons/ri";
 import { BadgeCustom, DevImage } from "../../../../shared/ui";
-import { Socials } from ".";
+import { Socials } from "@/components/shared";
 
 export function Hero() {
   return (

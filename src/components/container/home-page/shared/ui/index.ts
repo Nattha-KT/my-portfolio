@@ -1,5 +1,4 @@
 export * from './about'
 export * from './hero'
-export * from './socials'
 export * from './services'
 export * from './works'

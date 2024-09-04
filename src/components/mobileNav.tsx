@@ -2,8 +2,8 @@
 import React from "react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { AlignJustify } from "lucide-react";
-import { Nav, Logo } from ".";
-import { Socials } from "./features";
+import { Nav, Logo, Socials } from ".";
+
 
 type Props = {};
 
