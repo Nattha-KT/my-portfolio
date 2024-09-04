@@ -1,4 +1,5 @@
-import { About, Hero, Services,Works } from "@/components/features";
+
+import { About, Hero,Services, Works } from "@/components/container";
 import Image from "next/image";
 
 export default function Home() {

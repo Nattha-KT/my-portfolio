@@ -1,4 +1,4 @@
-import { TabsTrigger, Tabs, TabsList, TabsContent } from "../ui";
+import { TabsTrigger, Tabs, TabsList, TabsContent } from "../../../../ui";
 import { personalData, qualificationData, skillData } from "@/constant";
 import {
   QualificationSection,
@@ -8,7 +8,7 @@ import {
 } from "@/model";
 import Image from "next/image";
 import { Briefcase, GraduationCap } from "lucide-react";
-import { DevImage } from "../shared";
+import { DevImage } from "../../../../shared";
 
 export function About() {
   const getQualificationData = (

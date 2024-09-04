@@ -1,7 +1,7 @@
 "use client";
 
 import { ProjectedDataItem } from "@/model";
-import { Badge, Card, CardHeader } from "../ui";
+import { Badge, Card, CardHeader } from "../../ui";
 import Image from "next/image";
 import Link from "next/link";
 import { Link2Icon } from "lucide-react";

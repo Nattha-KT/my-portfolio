@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
 import { Logo, MobileNav, Nav } from ".";
-import ThemeToggler from "./shared/themeToggler";
 import { usePathname } from "next/navigation";
+import {ThemeToggler} from './shared'
 
 export function Header() {
   const [header, setHeader] = useState(false);

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { Button } from "../ui";
+import { Button } from "../../../../ui";
 import { Download, Send } from "lucide-react";
 
 import {
@@ -10,8 +10,8 @@ import {
   RiArrowDownSLine,
   RiBriefcase4Fill,
 } from "react-icons/ri";
+import { BadgeCustom, DevImage } from "../../../../shared/ui";
 import { Socials } from ".";
-import { BadgeCustom, DevImage } from "../shared";
 
 export function Hero() {
   return (

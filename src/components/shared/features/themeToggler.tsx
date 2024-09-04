@@ -1,10 +1,10 @@
 "use client";
 
 import { useTheme } from "next-themes";
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
 import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
 
-const ThemeToggler = () => {
+export const ThemeToggler = () => {
   const { theme, setTheme } = useTheme();
 
   return (
@@ -17,4 +17,3 @@ const ThemeToggler = () => {
   );
 };
 
-export default ThemeToggler;

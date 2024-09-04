@@ -2,13 +2,13 @@
 
 import { projectedData } from "@/constant";
 import Link from "next/link";
-import { Button } from "../ui";
+import { Button } from "../../../../ui";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
-import { ProjectedCard } from "../shared";
+import { ProjectedCard } from "../../../../shared";
 
 export function Works() {
   return (

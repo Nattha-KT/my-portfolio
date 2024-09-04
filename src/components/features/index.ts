@@ -1,5 +1,1 @@
-export * from './hero'
-export * from './socials'
-export * from './about'
-export * from './services'  
-export * from './works'  
+export * from './icons'  

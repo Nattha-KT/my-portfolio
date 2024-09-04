@@ -5,7 +5,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "../ui";
+} from "../../../../ui";
 
 servicesData;
 export function Services() {
